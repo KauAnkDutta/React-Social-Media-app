@@ -1,0 +1,136 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    background: linear-gradient(271deg, #9ca2c8, #6aa8c4, #a3dbd9, #b798e2, #e799f0);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    -o-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+
+.registerWrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background: rgba(216, 223, 226, 0.61);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.register_left, .register_right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register_logo{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(73, 73, 176);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.register_desc{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.register_form_box{
+    height: 450px;
+    padding: 20px;
+    background-color: rgb(229, 235, 232);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.register_input{
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 16px;
+    padding-left: 20px;
+
+}
+
+.register_input:focus{
+    outline: none;
+}
+
+.register_button{
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(101, 101, 177);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.register_forgot_password{
+    text-align: center;
+    color: #1775ee;
+}
+
+.or_container{
+    text-align: center;
+    position: relative;
+    margin: 10px 10px;
+}
+
+.or_text{
+    position: absolute;
+    top: -11px;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(88, 85, 85);
+    background-color: lightgray
+}
+
+.register_register_button{
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #67c255;
+    color: rgb(253, 253, 253);
+    text-align: center;
+}

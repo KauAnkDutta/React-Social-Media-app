@@ -1,0 +1,18 @@
+.inbox_container{
+    margin-top: 3px;
+    color: black;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.notification_text{
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    width: 100%;
+}
+
+.inbox_container:hover{
+    outline: 2px solid rgb(152, 164, 227);
+    border-radius: 8px;
+}
