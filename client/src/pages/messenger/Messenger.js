@@ -35,7 +35,7 @@ function Messenger(){
     };
 
     useEffect(() => {
-        socket.current = io("ws://localhost:8900") //add the heroku app link
+        socket.current = io("https://react-js-tribe-app.herokuapp.com/") //add the heroku app link
         socket.current.on("getMessage", (data) =>{   
             setArrivalMessage({
                 sender: data.senderId,

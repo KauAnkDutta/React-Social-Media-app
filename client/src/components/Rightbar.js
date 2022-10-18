@@ -119,13 +119,13 @@ function Rightbar({username}){
         return(
             <>
                 <div className="rightbar_birthday_container">
-                    <img src="https://raw.githubusercontent.com/safak/youtube/react-social-ui/public/assets/gift.png" className="gift_icon" alt="gift-img" />
+                    <img src={PF + "gift.png"} className="gift_icon" alt="gift-img" />
                     <span className="birthday_text">
                         <b>Jack Morestan</b> and <b>2 other friends</b> have a birthday today.
                     </span>
                 </div>
 
-                <img src="https://images.pexels.com/photos/6476777/pexels-photo-6476777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ad-img" className="rightbar_ad_img"/>
+                <img src={PF + "addvertisement"} alt="Ad-img" className="rightbar_ad_img"/>
 
                 <h4 className="rightbat_title">Online Friends</h4>
 
