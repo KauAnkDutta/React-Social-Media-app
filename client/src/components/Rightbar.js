@@ -125,7 +125,7 @@ function Rightbar({username}){
                     </span>
                 </div>
 
-                <img src={PF + "addvertisement"} alt="Ad-img" className="rightbar_ad_img"/>
+                <img src={PF + "addvertisement.jpeg"} alt="Ad-img" className="rightbar_ad_img"/>
 
                 <h4 className="rightbat_title">Online Friends</h4>
 
